@@ -1,0 +1,18 @@
+#spring:
+#  cloud:
+#    discovery:
+#      client:
+#        composite-indicator:
+#          enabled: false
+#    config:
+#      server:
+#        health:
+#          enabled: true
+#          repositories:
+#            common-secrets:
+#              name: common-secrets
+#              profiles: test
+#  application:
+#    name: secret-management-service
+
+

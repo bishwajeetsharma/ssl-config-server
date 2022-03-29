@@ -1,0 +1,16 @@
+#spring:
+#  profiles:
+#    include: composite
+#  cloud:
+#    config:
+#      name: certmanagementservice
+#      server:
+##        encrypt:
+##          enabled: false # turn off decryption on the server
+#        bootstrap: true
+#        fail-on-composite-error: false
+#        composite:
+##          - type: encrypted
+#            config-location: file:///ext-keeper-secrets
+#            application-key: application
+#            key-config-file-path: file:///ext-encrypt-keys/decrypt_secret.properties
